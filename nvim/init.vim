@@ -4,7 +4,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-neorg/neorg'
 Plug 'preservim/nerdtree'
+Plug 'navarasu/onedark.nvim'
 call plug#end()
+if has('termguicolors')
+  set termguicolors
+endif
+colorscheme onedark
 lua << EOF
     require('neorg').setup {
         -- Tell Neorg what modules to load

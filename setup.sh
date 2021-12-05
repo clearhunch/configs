@@ -12,3 +12,5 @@ fi
 brew install --cask visual-studio-code
 brew install --cask docker
 brew install nvm
+mv ./nvim ~/.config/nvim
+brew install --cask hyper
