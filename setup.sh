@@ -14,3 +14,4 @@ brew install --cask docker
 brew install nvm
 mv ./nvim ~/.config/nvim
 brew install --cask hyper
+mv .hyper.js ~/
