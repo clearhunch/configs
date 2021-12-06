@@ -14,6 +14,7 @@ brew install --cask docker
 brew install nvm
 brew install --cask hyper
 brew install --cask dbeaver-community
+brew install --cask rectangle
 brew install --cask firefox
 brew install --cask dashlane
 brew install --cask spotify
